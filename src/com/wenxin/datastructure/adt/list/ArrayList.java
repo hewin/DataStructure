@@ -87,7 +87,7 @@ public class ArrayList<T> {
     public boolean removeLast(){
         boolean removeSuccess;
         if(current > 0 && capacity > 0 && array[0] != null){
-            array[current-1] = 0;
+            array[current-1] = null;
             current--;
             removeSuccess = true;
         }else{
